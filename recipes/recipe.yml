@@ -16,6 +16,8 @@ modules:
 
   - from-file: modules/nix.yaml
 
+  - from-file: modules/niri.yaml
+
   - type: dnf
     repos:
       copr:
