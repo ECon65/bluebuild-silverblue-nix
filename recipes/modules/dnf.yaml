@@ -2,12 +2,12 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
 
 type: dnf
-repos:
+#repos:
   #nonfree: rpmfusion
-  copr:
+  #copr:
     #- scottames/ghostty
-install:
-  packages:
+#install:
+  #packages:
     #- foot
     #- alacritty
 remove:
