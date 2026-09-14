@@ -22,4 +22,4 @@ modules:
 
   - from-file: modules/default-flatpaks.yaml
 
-  - type: signing # this sets up the proper policy & signing files for signed images to work fully
+  - from-file: modules/signing.yaml
