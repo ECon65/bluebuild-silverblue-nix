@@ -6,10 +6,10 @@ type: dnf
   #nonfree: rpmfusion
   #copr:
     #- scottames/ghostty
-#install:
-  #packages:
-    #- foot
-    #- alacritty
+install:
+  packages:
+    - foot
+    - fuzzel
 remove:
   packages:
     # example: removing firefox (in favor of the flatpak)
